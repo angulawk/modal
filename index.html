@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sticky Modal</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+	<h1>Hello!</h1>
+	<p>Jestem Agnieszka</p>
+	<button class="contact_me_btn">Skontaktuj się</button>
+
+	<div class="contact_me_modal modal">
+		<div class="close_button">
+			<button class="close_me">Zamknij</button>
+		</div>
+		<h2>Skontaktuj się ze mną</h2>
+		<form class="contact_form">
+
+		<div class="row">
+			<label for="firstName">Imię: </label><input type="text" id="firstName">
+		</div>
+			
+		<div class="row">
+			<label for="lastName">Nazwisko: </label><input type="text" id="lastName">
+		</div>
+		
+		<div class="row">
+			<label for="email">Email: </label><input type="email" id="email">
+		</div>
+		
+		<div class="row">
+			<label for="msg">Treść: </label><textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+		</div>
+		
+		<div class="row">
+			<button type="submit">Wyślij</button>
+		</div>
+			
+		</form>
+	</div>
+
+	<script src="js/script.js"></script>
+</body>
+</html>
